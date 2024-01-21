@@ -1,0 +1,199 @@
+.header{
+    background-image: url(../img/bg-header2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+@font-face {
+    font-family: "AngilllaTattoo";
+    src: url("../fuentes/AngillaTattoo_PERSONAL_USE_ONLY.ttf");
+  }
+.text-dafon{
+    font-family: "AngilllaTattoo";
+    font-size: 26px;
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+}
+.header::after{
+   content: "";
+   display: block;
+   width: 100%;
+   height: 10px ;
+   background-color:#fff ;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+.vh-50{
+    height: 60vmin;
+}
+@font-face {
+    font-family: "demo";
+    src: url("../fuentes/Moonrising.ttf");
+  }
+  .text-dafon2{
+    font-family: "demo";
+    
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+}
+.filtro{
+    filter: brightness(0.8);
+}
+.card-efecto:hover .card{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    filter: brightness(0.7);
+}
+.card{
+    transition-duration: .6;
+    transition: all 1s;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+
+}
+
+.card-efecto2:hover .card2{
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+    filter: brightness(0.7);
+}
+.card2{
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+
+    transition-duration: .6;
+    transition: all 1s;
+    
+
+}
+
+/*Nokahlo Tattoo*/
+.comments{
+    background-image: url(../img/bg-header3.jpg);
+    background-position:center ;
+    background-size: cover;
+    position: relative;
+}
+.comments.linear-white::after{
+    top: 0;
+}
+.comments__img{
+    width:80px;
+    height: 80px;
+    border-radius: 80%;
+    box-shadow:  7px 7px 7px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    
+    border:  3px ridge #fff;
+}
+.transformacion{
+    transform: rotate(0.5turn);
+}
+
+.linear-white::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px ;
+    background-color:#fff ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+ }
+ .media-objet-img{
+     height: 65px;
+     width: 65px;
+     margin-right: 15px;
+ }
+ 
+/*Footer*/
+.bg-dark2{
+    
+   background: black;
+}
+
+.quitar li{
+    list-style:none;
+}
+
+.ico-f{
+    font-size: 45px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+}
+.ico-i{
+    font-size: 45px;
+    margin: 3px;
+    color: white;
+}
+.a-i{
+    text-decoration: none;
+    
+}
+.ico-f:hover{
+    font-size: 40px;
+   color: rgb(22, 95, 241);
+}
+.ico-i:hover{
+   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 28%;
+    font-size: 40px;
+}
+/* Galeria  header img movimiento */
+.header2{
+    background-image: url(../img/header22.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: movimiento 10s infinite linear alternate;   
+}
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }to{
+        background-position:  top right;
+    }
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left,black,rgb(60, 57, 57));
+    opacity: 0.5;
+
+}
+/*Galeria de img */
+.galeria-img{
+    
+    width: 100%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+/*contacto */
+.header3{
+    background-image: url(../img/header333.jfif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: movimiento 10s infinite linear alternate;   
+}
+@font-face {
+    font-family: "AngilllaTattoo";
+    src: url("../fuentes/AngillaTattoo_PERSONAL_USE_ONLY.ttf");
+  }
+.text-dafon{
+    font-family: "AngilllaTattoo";
+    font-size: 26px;
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+}
+.header3::after{
+   content: "";
+   display: block;
+   width: 100%;
+   height: 10px ;
+   background-color:#fff ;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
